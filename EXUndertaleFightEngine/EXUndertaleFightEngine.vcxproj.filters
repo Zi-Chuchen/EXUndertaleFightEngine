@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{2237d21c-0461-4b88-a8f2-3cdf388ef7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\draw">
+      <UniqueIdentifier>{faa22ce9-bbf2-4b8b-98f4-0a0b75c7355a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sense">
+      <UniqueIdentifier>{7c007aa9-056a-439d-b40d-34d56e2f8e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mainfight">
+      <UniqueIdentifier>{b6b1fcbd-84b2-44ec-b4de-a7c33575a7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{d2765277-eb41-4fa8-a3c4-31e4806c5cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\widget">
+      <UniqueIdentifier>{7b1fa7d9-fd40-4d4a-a954-f0fa372ee262}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Ddraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec2D.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Ddraw.h">
+      <Filter>头文件\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="sense_manager.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="load_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="fight_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="mercy_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="act_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="round_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="item_sense.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="sense_types.h">
+      <Filter>头文件\sense</Filter>
+    </ClInclude>
+    <ClInclude Include="fight_round.h">
+      <Filter>头文件\mainfight</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>头文件\widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

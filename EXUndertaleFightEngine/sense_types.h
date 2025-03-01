@@ -1,0 +1,10 @@
+#pragma once
+#include "sense.h"
+#include "sense_manager.h"
+#include "load_sense.h"
+#include "act_sense.h"
+#include "mercy_sense.h"
+#include "menu_sense.h"
+#include "fight_sense.h"
+#include "round_sense.h"
+#include "item_sense.h"
